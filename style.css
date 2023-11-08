@@ -47,7 +47,7 @@ body {
     border-bottom: 10px solid grey;
 }
 
-/* Main Section Styles */
+/* Section Styles */
 section {
     margin: 1em;
     padding: 20px;
@@ -61,7 +61,7 @@ section {
     padding: 30px;
 }
 
-/* Regions table styles */
+/* regions table styles */
 table {
     width: 100%;
     display: table;

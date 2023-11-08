@@ -14,18 +14,19 @@ body {
     height: auto;
 }
 
-.header {
+.header{
     background-color: black;
     display: flex;
     align-items: center;
     justify-content: center;
+    height: px;
 }
 
 .header img {
     display: block;
     margin: auto;
     max-width: 100%;
-    height: 50%;
+    height: 100%;
 }
 
 .topnav {

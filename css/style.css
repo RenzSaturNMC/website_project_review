@@ -55,12 +55,29 @@ section {
 }
 
 /* Aside Styles */
-.aside {
+/* .aside {
     flex: 1;
     float: left;
     width: 100%;
     padding: 30px;
-}
+} */
+
+/* Figure styles to potentially replace aside */
+figure {
+    border: 1px #cccccc solid;
+    padding: 4px;
+    margin: auto;
+    float: left;
+  }
+  
+  figcaption {
+    background-color: black;
+    color: white;
+    font-style: italic;
+    padding: 2px;
+    text-align: center;
+  }
+  
 
 /* regions table styles */
 table {
@@ -89,7 +106,38 @@ table {
     border: 2px solid black;
     padding: 5px;
     text-align: center;
-    vertical-align: center;
+}
+
+/* Profile Styles */
+
+.gallery {
+    display: flex;
+    justify-content: space-evenly;
+    flex-wrap: wrap;
+    align-items: center;
+    max-width: 1100px; 
+    margin: auto; 
+}
+
+.profile {
+    width: 300px;
+    margin: 10px;
+    text-align: center;
+}
+
+.profile img {
+    width: 100%;
+    height: 400px;
+    border-radius: 8px;
+}
+
+.details {
+    margin-top: 10px;
+}
+
+.details p{
+    text-align: center;
+    font: bold;
 }
 
 /* Footer styles */

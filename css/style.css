@@ -9,13 +9,11 @@ body {
 }
 
 /* Header Styles */
-.header-container {
+.header-container, .header, .topnav {
     background-color: black;
-    height: auto;
 }
 
-.header{
-    background-color: black;
+.header {
     display: flex;
     align-items: center;
     justify-content: center;
@@ -30,7 +28,6 @@ body {
 }
 
 .topnav {
-    background-color: black;
     padding: 1em;
     text-align: center;
     margin: auto;
@@ -68,16 +65,15 @@ figure {
     padding: 4px;
     margin: auto;
     float: left;
-  }
-  
-  figcaption {
+}
+
+figcaption {
     background-color: black;
     color: white;
     font-style: italic;
     padding: 2px;
     text-align: center;
-  }
-  
+}
 
 /* regions table styles */
 table {
@@ -97,8 +93,8 @@ table {
 }
 
 .regions thead {
-    background-color: black;
     color: white;
+    background-color: black;
     font-size: medium;
 }
 
@@ -109,14 +105,13 @@ table {
 }
 
 /* Profile Styles */
-
 .gallery {
     display: flex;
-    justify-content: space-evenly;
+    justify-content: space-between;
     flex-wrap: wrap;
     align-items: center;
-    max-width: 1100px; 
-    margin: auto; 
+    max-width: 1100px;
+    margin: auto;
 }
 
 .profile {
@@ -132,13 +127,12 @@ table {
 }
 
 .details {
-    margin-top: 10px;
+    padding: 5px;
+    border: 3px solid black;
 }
 
-.details p{
-    text-align: center;
-    font: bold;
-}
+/* .details p {
+} */
 
 /* Footer styles */
 footer {

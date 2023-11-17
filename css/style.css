@@ -45,11 +45,40 @@ body {
     border-bottom: 10px solid grey;
 }
 
-/* Section Styles */
-section {
+/* Article/Section Styles */
+article {
+    margin: 20px auto;
+    padding: 30px;
+    max-width: 800px; 
+    background-color: #fff; 
+    border-radius: 8px; 
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1); 
+}
+
+article h1 {
+    color: #333; 
+}
+
+article p {
+    font-size: 16px; 
+    line-height: 1.5; 
+    color: #555;
+}
+
+section{
     margin: 1em;
     padding: 20px;
 }
+
+
+hr {
+    border: 0;
+    clear:both;
+    display:block;
+    width: 95%;               
+    background-color: black;
+    height: 3px;
+  }
 
 /* Aside Styles */
 /* .aside {
@@ -68,8 +97,7 @@ figure {
 }
 
 figcaption {
-    background-color: black;
-    color: white;
+    color: black;
     font-style: italic;
     padding: 2px;
     text-align: center;
@@ -131,8 +159,9 @@ table {
     border: 3px solid black;
 }
 
-/* .details p {
-} */
+.details p {
+    font-size: 15px;
+}
 
 /* Footer styles */
 footer {

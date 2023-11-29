@@ -75,12 +75,9 @@ section{
 }
 
 hr {
-    border: 0;
-    clear:both;
-    display:block;
-    width: 95%;               
-    background-color: black;
-    height: 3px;
+    border: solid black 1px;
+    width: 75%;
+    color: black;
   }
 
 /* Aside Styles */
@@ -108,10 +105,27 @@ figcaption {
 
 /* Dictionary styles */
 
-.list{
-    font: bold;
-}
+dt {
+    float: left;
+    width: 100px;
+    text-align: right;
+    font-weight: bold;
+    color: black;
+  }
 
+dt::after {
+    content: ":";
+  }
+
+dd {
+    margin: 0 0 0 110px;
+    padding: 0 0 0.5em 0;
+  }
+  dd::after { 
+    content: "";
+    display: table;
+    clear: left;
+  }
 
 /* regions table styles */
 table {

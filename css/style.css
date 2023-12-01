@@ -139,7 +139,7 @@ form {
   }
   
   input[type="submit"]:hover {
-    background-color: #4cae4c;
+    background-color: darkgreen;
   }
 
 /* Dictionary styles */

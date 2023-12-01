@@ -2,7 +2,7 @@ body {
     margin: 0;
     padding: 0;
     font-family: Arial, sans-serif;
-    background-color: #f4f4f4;
+    background-color: whitesmoke;
     display: flex;
     flex-direction: column;
     min-height: 100vh;
@@ -103,6 +103,45 @@ figcaption {
     text-align: center;
 }
 
+/* Form Styles */
+
+form {
+    background-color: #fff;
+    padding: 20px;
+    border-radius: 5px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    max-width: 400px;
+    margin: 0 auto;
+  }
+ 
+  label {
+    display: block;
+    margin-top: 10px;
+  }
+  
+  input[type="text"], input[type="email"]{
+    width: 100%;
+    padding: 10px;
+    margin-top: 5px;
+    margin-bottom: 20px;
+    border: 1px solid #ddd;
+    border-radius: 4px;
+    box-sizing: border-box;
+  }
+  
+  input[type="submit"] {
+    background-color: #5cb85c;
+    color: white;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 4px;
+    float: inline-end;
+  }
+  
+  input[type="submit"]:hover {
+    background-color: #4cae4c;
+  }
+
 /* Dictionary styles */
 
 dt {
@@ -198,6 +237,23 @@ table {
     line-height: 1.5;
 }
 
+/* Recommended page styles */
+
+.recommended-img {
+    display: block;
+    margin: 20px auto; 
+    max-width: 90%;
+    height: auto;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto; 
+}
+
+h1, h2, p {
+    margin-bottom: 20px; 
+}
 
 /* Footer styles */
 footer {
@@ -205,4 +261,67 @@ footer {
     color: #fff;
     text-align: center;
     padding: 1em;
+}
+
+/* Media Queries */
+@media screen and (max-width: 768px) {
+    .header {
+        height: 150px;
+    }
+
+    .header img {
+        height: 80%;
+    }
+
+    .topnav {
+        padding: 0.5em;
+    }
+
+    article, section {
+        padding: 15px;
+    }
+
+    figure {
+        float: none;
+        margin: auto;
+    }
+
+    dd {
+        margin: 0;
+    }
+
+    .profile img {
+        height: 400px;
+    }
+}
+
+@media screen and (max-width: 600px) {
+    .header {
+        height: 120px;
+    }
+
+    .header img {
+        height: 70%;
+    }
+
+    .topnav {
+        padding: 0.3em;
+    }
+
+    article, section {
+        padding: 10px;
+    }
+
+    figure {
+        float: none;
+        margin: auto;
+    }
+
+    dd {
+        margin: 0;
+    }
+
+    .profile img {
+        height: 300px;
+    }
 }

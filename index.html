@@ -5,6 +5,7 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>The Ringpost Homepage</title>
     <link rel="stylesheet" href="css/style.css"/>
+    <link rel="stylesheet" href="css/homepage.css"/>
 </head>
 <body>
   <div class="header-container">
@@ -17,7 +18,6 @@
       <a href="regions.html">Regions</a>
       <a href="profiles.html">Profiles</a>
       <a href="recommend.html">Recommended</a>
-    </div>
   </div>
 <article>
     <h1>Welcome to The Ringpost!</h1>
@@ -49,7 +49,9 @@
 <article>
   <h1>Contact Us</h1>
   <p>Have a question or suggestion? Reach out to us using the contact form below.</p>
-  <form method="POST" action="https://jkorpela.fi/cgi-bin/echo.cgi" target="cgi-results">
+  <form action="https://api.web3forms.com/submit" method="POST">
+    <input type="hidden" name="access_key" value="3e6a90e9-876d-42d6-917a-2ee04600d70a">
+
       <label for="name">Your Name:</label>
       <input type="text" id="name" name="name" required>
 
@@ -58,7 +60,7 @@
 
       <label for="message">Your Message:</label>
       <textarea id="message" name="message" rows="4" required></textarea>
-
+      <input type="hidden" name="redirect" value="https://web3forms.com/success">
       <input type="submit" value="Submit">
   </form>
 

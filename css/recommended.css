@@ -1,0 +1,24 @@
+/* Recommended page styles */
+
+.recommended-img {
+    display: block;
+    margin: 20px auto; 
+    max-width: 90%;
+    height: auto;
+}
+
+iframe {
+    display: block;
+    margin: 20px auto; 
+}
+
+video{
+    display: block;
+    margin: 20px auto;
+    width: 560px;
+    height: 315px;
+}
+
+h1, h2, p {
+    margin-bottom: 20px; 
+}

@@ -29,7 +29,8 @@
 }
 
 .details {
-    padding: 5px;
+    padding: 10px;
+    font-size: 18px;
 }
 
 .details h3 {
@@ -38,6 +39,6 @@
 
 .details p {
     color: #000000;
-    font-size: 14px;
+    font-size: 18px;
     line-height: 1.5;
 }

@@ -1,10 +1,10 @@
-// sticky header
-window.onscroll = function() {myFunction()};
+// sticky navigation bar
+window.onscroll = function() {stickyHeader()};
 
 var navbar = document.getElementById("navbar");
 var sticky = navbar.offsetTop;
 
-function myFunction() {
+function stickyHeader() {
   if (window.pageYOffset >= sticky) {
     navbar.classList.add("sticky")
   } else {
@@ -13,7 +13,7 @@ function myFunction() {
 }
 
 //responsive navigation
-function myFunction() {
+function toggleResponsive() {
   var x = document.getElementById("navbar");
   if (x.className === "topnav") {
     x.className += " responsive";
@@ -21,4 +21,3 @@ function myFunction() {
     x.className = "topnav";
   }
 }
-

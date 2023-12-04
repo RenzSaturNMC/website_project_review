@@ -27,6 +27,8 @@ body {
     height: 100%;
 }
 
+/* Navigation styles */
+
 .topnav {
     padding: 1em;
     text-align: center;
@@ -44,6 +46,15 @@ body {
     background-color: white;
     color: black;
     border-bottom: 10px solid grey;
+}
+
+.topnav a:active {
+    background-color: black;
+    color: white;
+}
+
+  .topnav .icon {
+    display: none;
 }
 
 /* sticky nav styles */
@@ -110,7 +121,7 @@ footer {
     }
 
     .header img {
-        height: 80%;
+        height: 85%;
     }
 
     .topnav {
@@ -141,7 +152,7 @@ footer {
     }
 
     .header img {
-        height: 70%;
+        height: 75%;
     }
 
     .topnav {
@@ -164,4 +175,30 @@ footer {
     .profile img {
         height: 300px;
     }
+
+    .topnav a:not(:first-child) {
+        display: none;
+    }
+
+    .topnav a.icon {
+        float: right;
+        display: block;
+    }
+
+    .topnav.responsive {
+        position: relative;
+    }
+
+    .topnav.responsive a.icon {
+        position: absolute;
+        right: 0;
+        top: 0;
+    }
+
+    .topnav.responsive a {
+        float: none;
+        display: block;
+        text-align: left;
+    }
 }
+  

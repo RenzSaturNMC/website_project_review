@@ -1,3 +1,4 @@
+// sticky header
 window.onscroll = function() {myFunction()};
 
 var navbar = document.getElementById("navbar");
@@ -10,3 +11,14 @@ function myFunction() {
     navbar.classList.remove("sticky");
   }
 }
+
+//responsive navigation
+function myFunction() {
+  var x = document.getElementById("navbar");
+  if (x.className === "topnav") {
+    x.className += " responsive";
+  } else {
+    x.className = "topnav";
+  }
+}
+

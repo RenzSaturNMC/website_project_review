@@ -1,4 +1,4 @@
-/* Figure styles to potentially replace aside */
+/* Figure styles */
 figure {
     border: 1px #cccccc solid;
     padding: 4px;
@@ -12,15 +12,6 @@ figcaption {
     padding: 2px;
     text-align: center;
 }
-
-/* Aside Styles */
-/* .aside {
-    flex: 1;
-    float: left;
-    width: 100%;
-    padding: 30px;
-} */
-
 
 /* Form Styles */
 

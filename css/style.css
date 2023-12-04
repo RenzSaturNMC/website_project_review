@@ -121,7 +121,7 @@ footer {
     }
 
     .header img {
-        height: 85%;
+        height: 100%; 
     }
 
     .topnav {
@@ -146,17 +146,18 @@ footer {
     }
 }
 
-@media screen and (max-width: 600px) {
+@media screen and (max-width: 636px) {
     .header {
         height: 120px;
     }
 
     .header img {
-        height: 75%;
+        height: 100%;
     }
 
     .topnav {
         padding: 0.3em;
+        text-align: center;
     }
 
     article, section {
@@ -201,4 +202,3 @@ footer {
         text-align: left;
     }
 }
-  

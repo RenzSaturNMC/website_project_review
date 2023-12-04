@@ -141,7 +141,7 @@ footer {
         margin: auto;
     }
 
-    dd {
+    dl {
         margin: 0;
     }
 
@@ -161,7 +161,6 @@ footer {
 
     .topnav {
         padding: 0.3em;
-        text-align: center;
     }
 
     article, section {
@@ -173,12 +172,13 @@ footer {
         margin: auto;
     }
 
-    dd {
+    dl {
         margin: 0;
     }
 
     .profile img {
         height: 300px;
+        width: 400px;
     }
 
     .topnav a:not(:first-child) {

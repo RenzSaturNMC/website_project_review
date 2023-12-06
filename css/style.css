@@ -161,6 +161,7 @@ footer {
 
     .topnav {
         padding: 0.3em;
+
     }
 
     article, section {
@@ -178,10 +179,9 @@ footer {
 
     .profile img {
         height: 300px;
-        width: 400px;
     }
 
-    .topnav a:not(:first-child) {
+    .topnav a {
         display: none;
     }
 
